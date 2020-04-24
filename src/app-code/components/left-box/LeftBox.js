@@ -9,7 +9,7 @@ export default class LeftBox extends React.Component{
     ButtonGroup(props){
         let loopData = [];
         for (let index = 0; index < props; index++) {
-            if(index == 0) loopData.push(this.imageButtonSelected)
+            if(index === 0) loopData.push(this.imageButtonSelected)
             loopData.push(this.imageButton)  
         }
         return(

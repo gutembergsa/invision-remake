@@ -13,7 +13,7 @@ export default class LoginForm extends React.Component{
           <p>Password</p>
           <input type="password" className="form-input-text" />
         </div>
-        <a className="form-forget-pass">Forget Password?</a>
+        <a className="form-forget-pass" href="/">Forget Password?</a>
         <button className="form-signin-button">Sign in</button>
         <Divider/>
         <button className="form-signup-button">
@@ -22,7 +22,7 @@ export default class LoginForm extends React.Component{
             <p>Sign in with Google</p>    
           </div>
         </button>
-        <p>New Invision? <a href="#">Create Account</a></p>
+        <p>New Invision? <a href="/">Create Account</a></p>
       </form> 
      );
     }

@@ -17,7 +17,6 @@ export default class LoginForm extends React.Component{
           <p>Create Password</p>
           <input type="password" className="form-input-text" />
         </div>
-        <a className="form-forget-pass">Forget Password?</a>
         <button className="form-signin-button">Sign in</button>
         <Divider/>
         <button className="form-signup-button">
@@ -27,8 +26,8 @@ export default class LoginForm extends React.Component{
           </div>
         </button>
         <footer>
-            <p>By signing up, you agree to Invision<p><a>Terms of Conditions</a> and <a>Privacy Policy</a></p></p>
-            <p>Already in Invision?<a>Log In</a></p>
+            <p>By signing up, you agree to Invision<p><a href="/">Terms of Conditions</a> and <a href="/">Privacy Policy</a></p></p>
+            <p>Already in Invision? <a href="/">Log In</a></p>
         </footer>
       </form> 
      );

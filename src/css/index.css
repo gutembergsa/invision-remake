@@ -128,8 +128,14 @@ body {
 
 .box.right .right-box-content .sub-title {
   text-align: center;
-  margin: 1.5em auto 1.5em auto;
+  margin: 5em auto 3em auto;
   font-weight: 300;
+}
+
+@media screen and (max-width: 425px) {
+  .box.right .right-box-content .sub-title {
+    margin: 1.5em auto;
+  }
 }
 
 .box.right .right-box-content form {

@@ -95,8 +95,11 @@ body{
 
             .sub-title{
                 text-align: center;
-                margin: 1.5em auto 1.5em auto;
+                margin: 5em auto 3em auto;
                 font-weight: 300;
+                @media screen and (max-width: 425px) {
+                    margin: 1.5em auto ;                    
+                }
             }
 
             form{
@@ -203,7 +206,7 @@ body{
                         color: #A9C5BA;
                     }
                     p{
-                        // the first p el inside the first p el inside footer 
+                        //the first child p inside the first p el inside footer 
                         p:first-child{
                             margin-top: 5px;
                         }
@@ -212,6 +215,7 @@ body{
                         margin-top: 15px;
                     }
                 }
+                //the last p el in the form 
                 p:last-child{
                     text-align: center;
                     font-size: 8px;
