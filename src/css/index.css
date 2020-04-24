@@ -20,7 +20,7 @@ body {
   width: 100vw;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .inner-content {
     display: -ms-grid;
     display: grid;
@@ -128,7 +128,7 @@ body {
 
 .box.right .right-box-content .sub-title {
   text-align: center;
-  margin-top: 3em;
+  margin: 1.5em auto 1.5em auto;
   font-weight: 300;
 }
 
@@ -140,7 +140,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  margin-top: 3em;
+  margin-top: -1em;
 }
 
 .box.right .right-box-content form .form-input-layout {
@@ -168,7 +168,7 @@ body {
   padding: .5em;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 800px) {
   .box.right .right-box-content form .form-input-layout input {
     width: 90vw;
   }

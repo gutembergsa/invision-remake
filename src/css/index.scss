@@ -16,7 +16,7 @@ body{
     width: 100vw;
 }
 
-@media screen and(min-width: 1024px){
+@media screen and(min-width: 800px){
     .inner-content {
         display: grid;
         grid-template-columns: 50% auto;
@@ -95,14 +95,14 @@ body{
 
             .sub-title{
                 text-align: center;
-                margin-top: 3em;
+                margin: 1.5em auto 1.5em auto;
                 font-weight: 300;
             }
 
             form{
                 display: flex;
                 flex-flow: column;
-                margin-top: 3em;
+                margin-top: -1em;
 
                 .form-input-layout{
 
@@ -128,7 +128,7 @@ body{
                             padding: .5em;
                         }                        
                     }
-                    @media screen and (max-width:425px) {
+                    @media screen and(max-width: 800px) {
                         input{
                             width: 90vw;
                         }                            
@@ -148,7 +148,6 @@ body{
                     border: none;
                     width: 120px;
                     height: 30px;
-                    //opacity: 60%;
                 } 
                 .form-signup-button{
                     margin: 2em auto 2.5em;
